@@ -1,4 +1,5 @@
 body {
+
     font-family: 'Roboto';
     margin: auto;
 }
@@ -75,7 +76,8 @@ a {
 
 .hero-img {
     display: block;
-    max-inline-size: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero img img {
@@ -234,8 +236,7 @@ a {
 
     .hero-img {
         margin: 0.85rem 0;
-        max-width: 100%;
-        height: auto;
+        width: 100%;
     }
 
     .header-container h1 {
