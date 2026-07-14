@@ -78,6 +78,11 @@ a {
     max-inline-size: 100%;
 }
 
+.hero img img {
+    width: 100%;
+    height: auto;
+}
+
 
 .hero-btn {
     font-size: 1.5rem;
@@ -212,6 +217,11 @@ a {
         padding-bottom: 1rem;
     }
 
+    .header-brand {
+        font-size: 36px;
+    }
+
+
     .navlinks {
         flex-direction: column;
     }
@@ -224,7 +234,8 @@ a {
 
     .hero-img {
         margin: 0.85rem 0;
-        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .header-container h1 {
@@ -240,6 +251,23 @@ a {
         flex-direction: column;
         text-align: center;
         justify-content: center;
+    }
+
+    .testimonial-container p {
+        font-style: italic;
+        max-width: 600px;
+        font-size: 24px;
+        color: #1f2937;
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .testi-author {
+        display: block;
+        text-align: right;
+        font-weight: 500;
+        font-size: 24px;
     }
 
     .action {
