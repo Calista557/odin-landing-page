@@ -273,6 +273,7 @@ a {
 
     .action {
         flex-direction: column;
+        max-width: 100%;
     }
 
     .feature-card p {
